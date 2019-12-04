@@ -1,0 +1,32 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class DataVisualizer {
+   public static void main(String[] args) {
+      ArrayList<String> a=new ArrayList<String>();
+      ArrayList<Integer> b=new ArrayList<Integer>();
+      
+      Scanner scan=new Scanner(System.in);
+      System.out.println("Enter a title for the data:");
+      String title=scan.nextLine();
+      System.out.println("You entered: "+title);
+      System.out.println("Enter the column 1 header:");
+      String c1=scan.nextLine();
+      System.out.println("You entered: "+c1);
+      System.out.println("");
+      System.out.println("Enter the column 2 header:");
+      String c2=scan.nextLine();
+      System.out.println("You entered: "+c2);
+      String input=0;
+      do{
+      System.out.println("Enter a data point (-1 to stop input):");   
+      input=scan.next   
+         
+         
+         
+      }while(!(input==-1));
+      /* Type your code here. */
+      
+      return;
+   }     
+}
